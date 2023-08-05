@@ -1,4 +1,4 @@
-package methodOverride
+package overrider
 
 import (
 	"strings"
@@ -20,6 +20,7 @@ func New() fiber.Handler {
 			return c.Next()
 		}
 
+		// override method
 		switch _method {
 		case fiber.MethodPut:
 			c.Method(fiber.MethodPut)
