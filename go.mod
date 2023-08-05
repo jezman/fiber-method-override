@@ -1,4 +1,4 @@
-module github.com/jezman/fiber-method-override
+module github.com/jezman/overrider
 
 go 1.20
 
