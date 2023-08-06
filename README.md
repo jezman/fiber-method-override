@@ -1,6 +1,6 @@
 # Overrider
 
-Fiber middleware. Overrides POST method to PUT, PATCH od DELETE.
+Fiber middleware. Overrides POST method to PUT, PATCH or DELETE.
 
 ### Usage:
 
