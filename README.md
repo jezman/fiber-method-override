@@ -9,9 +9,13 @@ go get github.com/jezman/overrider
 ```
 
 ### add middleware
+
 ```go
+
+import "github.com/jezman/overrider"
+
 func main() {
-    app.fiber.New()
+    app = fiber.New()
     app.Use(overrider.New())
 }
 ```
