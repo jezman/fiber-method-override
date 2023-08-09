@@ -15,7 +15,7 @@ go get github.com/jezman/overrider
 import "github.com/jezman/overrider"
 
 func main() {
-    app = fiber.New()
+    app := fiber.New()
     app.Use(overrider.New())
 }
 ```
